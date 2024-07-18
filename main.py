@@ -3,7 +3,7 @@ from tkinter import *
 from tkinter.ttk import Combobox
 from tkinter import messagebox
 
-apiKey = 'fca_live_f1xgKdu36Sp7LCw7gHOtLMgbByHrZXWO5ML4Tier'
+apiKey = 'API_KEY'
 url = 'https://api.freecurrencyapi.com/v1/latest?apikey=fca_live_f1xgKdu36Sp7LCw7gHOtLMgbByHrZXWO5ML4Tier'
 
 response = requests.get(url)
